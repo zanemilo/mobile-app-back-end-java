@@ -1,9 +1,4 @@
 
-    How can I ensure that my code, program, or software is functional and secure?
-    How do I interpret user needs and incorporate them into a program?
-    How do I approach designing software?
-
-
 # Back End Mobile Application Development Project - Java
 
 To ensure functionality and security, the developed code I created uses input validation and unit testing. Methods enforce constraints on IDs, names, dates, and descriptions, preventing invalid data entry. Tests (e.g., ContactServiceTest​, AppointmentServiceTest​) validate functionality under various edge cases and error conditions. Security is enhanced by using non-modifiable IDs, limiting updates to only certain fields, and preventing invalid states, such as past dates in appointments.
